@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Cart Tests Suite">
+    <parameter name="url" value="https://www.demoblaze.com/" />
+    <parameter name="environment" value="Production" />
+    <test name="Cart Test">
+        <listeners>
+            <listener class-name="listener.Listener"/>
+        </listeners>
+
+        <classes>
+            <class name="runners.CartRunner" />
+        </classes>
+    </test>
+</suite>
